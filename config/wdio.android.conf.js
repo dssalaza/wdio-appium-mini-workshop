@@ -35,9 +35,6 @@ export const config = {
         platformName: 'Android',
         'appium:automationName': 'UiAutomator2',
         'appium:app': path.resolve(__dirname, '../apps/android-app.apk'),
-        'appium:noReset': false,
-        'appium:fullReset': true,
-        'appium:dontStopAppOnReset': true,
         'appium:newCommandTimeout': 240
     }],
 }; 

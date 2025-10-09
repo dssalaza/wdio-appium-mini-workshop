@@ -37,7 +37,6 @@ export const config = {
         'appium:deviceName': 'iPhone 17',
         'appium:platformVersion': '26.0',
         'appium:app': path.resolve(__dirname, '../apps/ios-app.app'),
-        'appium:noReset': false,
         'appium:newCommandTimeout': 240
     }],
 }; 
