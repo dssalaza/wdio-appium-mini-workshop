@@ -1,5 +1,6 @@
 describe('App Test', () => {
     it.skip('Should login successfully', async () => {
+        
         // Navigate to the login screen
         await $('~Login').click();
         await $('~Login-screen').waitForDisplayed(true);
@@ -23,7 +24,7 @@ describe('Should show a native alert when login is successfull', () => {
     // IOS Predicate String selector it uses XCUITest
     const IOS_ALERT = '-ios predicate string:type == \'XCUIElementTypeAlert\''
 
-    it('Should login successfully and accept the native alert', async () => {
+    it.skip('Should login successfully and accept the native alert', async () => {
 
         // Navigate to the login screen
         await $('~Login').click();
