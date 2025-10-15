@@ -1,6 +1,6 @@
-describe('App Test', () => {
+describe('Login Test: ', () => {
     it.skip('Should login successfully', async () => {
-        
+
         // Navigate to the login screen
         await $('~Login').click();
         await $('~Login-screen').waitForDisplayed(true);

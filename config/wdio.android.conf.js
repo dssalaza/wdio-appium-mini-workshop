@@ -25,6 +25,11 @@ export const config = {
             }
         }]
     ],
+    reporters: [['allure', {
+        outputDir: 'allure-results',
+        disableWebdriverStepsReporting: false,
+        disableWebdriverScreenshotsReporting: true,
+    }]],
     framework: 'mocha',
     mochaOpts: {
         ui: 'bdd',
